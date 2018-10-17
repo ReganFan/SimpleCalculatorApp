@@ -1,0 +1,116 @@
+/* style.css, stylesheet for index.html, created by Yongye Fan, 15/10/2018 */
+/* Browser prefix is added by Autoprefixer */
+body {
+  background-color: #ACD99E;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#main-block {
+  height: 600px;
+  margin: auto;
+  width: 600px;
+}
+
+h1 {
+  color: white;
+  font-family: "Microsoft YaHei UI", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* calculator body */
+#content {
+  background-color: #95A5A6;
+  border-color: #95A5A6;
+  -webkit-border-radius: 5%;
+     -moz-border-radius: 5%;
+          border-radius: 5%;
+  border-style: solid;
+  border-width: 4px;
+  -webkit-box-shadow: 0 15px 2px #7F8C8D;
+     -moz-box-shadow: 0 15px 2px #7F8C8D;
+          box-shadow: 0 15px 2px #7F8C8D;
+  height: 495px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+}
+
+#screen {
+  background-color: #34495E;
+  border-color: #34495E;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  border-style: solid;
+  border-width: 3px;
+  -webkit-box-shadow: inset 1px 1px 2px #6D7680;
+     -moz-box-shadow: inset 1px 1px 2px #6D7680;
+          box-shadow: inset 1px 1px 2px #6D7680;
+  color: white;
+  height: 65px;
+  margin: 25px auto 18px auto;
+  overflow: hidden;
+  width: 370px;
+}
+
+#screen p {
+  clear: both;
+  float: right;
+  font-family: "Microsoft YaHei UI", sans-serif;
+  overflow: hidden;
+  text-align: right;
+  width: 355px;
+}
+
+#expression {
+  font-size: 15px;
+  height: 19px;
+  margin: 5px 10px 1px 0;
+}
+
+#result {
+  font-size: 30px;
+  height: 38px;
+  margin: 0 10px 0 0;
+}
+
+/* buttons area */
+#buttons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 396px;
+}
+
+#buttons button {
+  background-color: #ECF0F1;
+  border-color: #ECF0F1;
+  -webkit-border-radius: 18%;
+     -moz-border-radius: 18%;
+          border-radius: 18%;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-box-shadow: 0 8px 0 #7F8C8D;
+     -moz-box-shadow: 0 8px 0 #7F8C8D;
+          box-shadow: 0 8px 0 #7F8C8D;
+  color: #2C3E50;
+  display: inline-block;
+  font-family: "Microsoft YaHei UI", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 12px;
+  margin-left: 8.5px;
+  outline: none;
+  text-align: center;
+  width: 65px;
+}
+
+/* the button "=" */
+#buttons button:nth-last-of-type(2) {
+  color: #E74C3C;
+}
