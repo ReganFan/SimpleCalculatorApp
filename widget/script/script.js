@@ -1,5 +1,5 @@
 /* script.js, javascript for index.html, created by Yongye Fan, 15/10/2018 */
-window.onload = function() {
+// window.onload = function() {
   // global variables
   // inputExpression, the last expression that you has input
   inputExpression = "";
@@ -43,7 +43,7 @@ window.onload = function() {
       loadSound(pressUpMp3URL);
     };
   }
-};
+// };
 
 /* writeExpression
  * input: the text content of the button
