@@ -556,7 +556,7 @@ function isValid(exp) {
   if (newExp[0] == ")" || newExp[newExp.length - 1] == "(") return false;
 
   for (i = 0; i < newExp.length; i++) {
-    if (newExp[i] == "(" && (numbers + "(π").indexOf(newExp[i + 1]) == -1) return false;
+    if (newExp[i] == "(" && (numbers + "(π-+").indexOf(newExp[i + 1]) == -1) return false;
 
     if (newExp[i] == ")" && (numbers + ")π").indexOf(newExp[i - 1]) == -1) return false;
   }
